@@ -76,6 +76,10 @@ input:-ms-input-placeholder {
   margin: auto;
 }
 
+.main {
+  overflow-x: hidden;
+}
+
 .main_top {
   background: #E5E5E5;
 }
