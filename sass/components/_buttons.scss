@@ -1,0 +1,40 @@
+.btn-hover{
+  padding: 8px 12px;
+  background: $blue;
+  border-radius: 6px;
+  color: $white;
+  text-decoration: none;
+  display: block;
+  max-width: fit-content;
+
+  &:hover {
+    background: $white;
+    color: $blue;
+    transition: all .3s;
+  }
+}
+
+.btn-primary {
+  padding: 8px 12px;
+  background: $blue;
+  border-radius: 6px;
+  color: $white;
+  text-decoration: none;
+  display: block;
+  max-width: fit-content;
+}
+
+.btn-white {
+  display: block;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 6px;
+  max-width: fit-content;
+  background: $white;
+  color: $blue;
+}

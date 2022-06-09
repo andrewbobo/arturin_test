@@ -1,0 +1,60 @@
+.title-h1 {
+  color: $dark-gray;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+
+  @media (max-width: 991px) {
+    font-size: 40px;
+  }
+}
+
+.title-h2 {
+  color: #1F262E;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  max-width: 530px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 85px;
+
+
+  @media (max-width: 991px) {
+    font-size: 40px;
+  }
+}
+
+.title-h3 {
+  max-width: 290px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1F262E;
+  margin-bottom: 20px;
+}
+
+.title-h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #283540;
+  max-width: 185px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.title-white {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: $white;
+  margin-bottom: 20px;
+}

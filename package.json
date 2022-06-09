@@ -1,0 +1,27 @@
+{
+  "name": "sass-compailer",
+  "version": "1.0.0",
+  "description": "Gulp Sass/Scss Compiler (autoprefix, sourcemaps, minify, file-rename, browser-sync)",
+  "main": "default.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kenan gündoğan kenangundogann@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.9"
+  }
+}
